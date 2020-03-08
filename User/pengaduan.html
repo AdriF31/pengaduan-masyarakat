@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Qrespond</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="col-md-9 d-flex align-items-right py-4">
+            <a class="navbar-brand" href="beranda.html">Qrespond</a>
+        </div>
+        <div class="container d-flex align-items-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a href="beranda.html" class="nav-link pl-0">Beranda</a></li>
+					<li class="nav-item"><a href="../index.html" class="nav-link">Login</a></li>
+					<li class="nav-item"><a href="register.html" class="nav-link">Daftar</a></li>
+				</ul>
+			</div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="form-group">
+            <h2 class="text-left">Formulir Pengaduan
+            </h2>
+            <p class="text-left">Isilah formulir dibawah ini dengan data yang benar dan dapat
+                dipertanggungjawabkan</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <h5 class="">Data Diri Pengadu</h5>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="fullname" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group row">
+                        <div class="full-width">
+                            <div class=" col-6 form-check form-check-inline">
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="radio" class="custom-control-input" id="laki" name="gender" value="1"
+                                        checked>
+                                    <label class="custom-control-label font-12" for="laki">Laki-laki</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 form-check form-check-inline">
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="radio" class="custom-control-input" id="perempuan" name="gender"
+                                        value="2" checked>
+                                    <label class="custom-control-label font-12" for="perempuan">Perempuan</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="id_card_num" placeholder="No Identitas (KTP/SIM)"
+                            maxlength="16" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="Email" value required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="phone" placeholder="Nomor Telepon" maxlength="13"
+                            value required>
+                    </div>
+                    <div class="form-group">
+                        <h5 class="">Kategori</h5>
+                        <select class="form-control">
+                            <option>Pilih Kategori</option>
+                            <option>Kesehatan</option>
+                            <option>Rawan Gizi</option>
+                            <option>Pendidikan</option>
+                            <option>Rumah Darurat Roboh</option>
+                            <option>Jembatan</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <h5 class="">Data yang diadukan</h5>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="fullname" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="id_card_num" placeholder="No Identitas (KTP/SIM)"
+                            maxlength="16" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="phone" placeholder="Nomor Telepon" maxlength="13"
+                            value required>
+                    </div>
+                    <div class="form-group">
+                        <h5 class="">Lokasi</h5>
+                        <select class="form-control">
+                            <option>Pilih Provinsi</option>
+                            <option>Aceh</option>
+                            <option>Sumatera Utara (Sumut)</option>
+                            <option>Sumatera Barat (Sumbar)</option>
+                            <option>Riau</option>
+                            <option>Kepulauan Riau (Kepri)</option>
+                            <option>Jambi</option>
+                            <option>Bengkulu</option>
+                            <option>Sumatera Selatan (Sumsel)</option>
+                            <option>Kepulauan Bangka Belitung</option>
+                            <option>Lampung</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>Pilih Kabupaten/Kota</option>
+                            <option>Bandung</option>
+                            <option>Bandung Barat</option>
+                            <option>Bekasi</option>
+                            <option>Cianjur</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                            <option>Pilih Kelurahan</option>
+                            <option>Cileunyi</option>
+                            <option>Cibiru</option>
+                            <option>Cicaheum</option>
+                            <option>Soreang</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-6">
+                            <input type="text" class="form-control" name="no_rt" placeholder="RT (Contoh:003)" maxlength="3"
+                                required>
+                        </div>
+                        <div class="form-group col-6">
+                            <input type="text" class="form-control" name="no_rw" placeholder="RW (Contoh:010)" maxlength="3"
+                                required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="alamat" id="" cols="30" rows="7" class="form-control"
+                            placeholder="Alamat"></textarea>
+                    </div>
+            </div>
+
+            <div class="col-md-6">
+                
+                
+                <div class="form-group">
+                    <h5 class="">Isi Pengaduan Anda</h5>
+                </div>
+                <div class="form-group">
+                    <textarea name="alamat" id="" cols="30" rows="7" class="form-control"
+                        placeholder="Apa Pengaduan Anda?"></textarea>
+                </div>
+                <div class="form-group">
+                    <h5 class="">Identitas Pendukung</h5>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="no_KIP_BSM" placeholder="No KIP/BSM" maxlength="50"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="no_rw" placeholder="No KKS/KPS" maxlength="50"
+                        required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="no_rw" placeholder="No KIS/BPJS Kesehatan"
+                        maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="no_rw" placeholder="No BPJS Kesehatan Mandiri"
+                        maxlength="50" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="no_rw" placeholder="No BPJS Ketenagakerjaan"
+                        maxlength="50" required>
+                </div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-3"></div>
+                    <div class="col-1"></div>
+                    <div class="form-group col-6">
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1"
+                            placeholder="Unggah Data Pendukung" accept="image/*">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="form-group col-md-4">
+                        <input type="submit" value="Kirim Pengaduan" class="btn btn-primary">
+                    </div>
+                </div>
+                
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-5">
+                        <h2 class="ftco-heading-2">Kontak</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li><span class="icon icon-map-marker"></span><span class="text">Jl. Diponegoro
+                                        No.22,
+                                        Citarum,
+                                        Bandung Wetan, Kota Bandung,
+                                        Jawa Barat 40115. Diponegoro No.22, Citarum,
+                                        Bandung Wetan, Kota Bandung,
+                                        Jawa Barat 40115</span></li>
+                                <li><a href="#"><span class="icon icon-phone"></span><span class="text">0811 1358
+                                            888</span></a></li>
+                                <li><a href="#"><span class="icon icon-envelope"></span><span
+                                            class="text">Qrespond@qmail.com</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-5 ml-md-4">
+                        <h2 class="ftco-heading-2">Umum</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Beranda</a></li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Tentang Kami</a>
+                            </li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Kisah Sukses</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-5 ml-md-4">
+                        <h2 class="ftco-heading-2">Komunitas</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Relawan</a></li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Berita</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="ftco-footer-widget mb-4 ml-md-3">
+                        <h2 class="ftco-heading-2">Dukungan</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>FAQ</a></li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Syarat &
+                                    Ketentuan</a>
+                            </li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Kemitraan</a></li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Link Terkait</a>
+                            </li>
+                            <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Nomor Darurat</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2 mb-0">Lebih Dekat Dengan Kami</h2>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                    is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
+                        target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00" /></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
