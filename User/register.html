@@ -29,9 +29,11 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
-        <div class="col-md-4 d-flex align-items-right py-4">
-            <a class="navbar-brand" href="beranda.html"><img src="../Admin/images/logo-white.png" alt="logo" width="10%"></a>
+        <div class="col-md-9 d-flex align-items-right py-4">
+            <a class="navbar-brand" href="beranda.html"><img src="../Admin/images/logo-white.png" alt="logo"
+                    width="10%"></a>
         </div>
         <div class="container d-flex align-items-center">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -48,33 +50,130 @@
         </div>
     </nav>
 
+    <div class="container">
+        <div class="form-group">
+            <h2 class="text-left">Formulir Registrasi
+            </h2>
+            <p class="text-left">Isilah formulir dibawah ini dengan data yang benar dan dapat
+                dipertanggungjawabkan</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="#">
+                    <div class="form-group">
+                        <label for="namadpn">Nama Depan</label>
+                        <input type="text" class="form-control" name="namdpn" placeholder="Nama Depan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="namadpn">Nama Belakang</label>
+                        <input type="text" class="form-control" name="namablkng" placeholder="Nama Belakang" required>
+                    </div>
+                    <div class="form-group">
+                        <Label>Jenis Kelamin</Label>
+                    </div>
+                    <div class="form-group row">
+                        <div class="full-width">
+                            <div class=" col-6 form-check form-check-inline">
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="radio" class="custom-control-input" id="laki" name="gender" value="1"
+                                        checked>
+                                    <label class="custom-control-label font-12" for="laki">Laki-laki</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4 form-check form-check-inline">
+                                <div class="custom-control custom-checkbox mb-3">
+                                    <input type="radio" class="custom-control-input" id="perempuan" name="gender"
+                                        value="2" checked>
+                                    <label class="custom-control-label font-12" for="perempuan">Perempuan</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="noktp">No KTP</label>
+                        <input type="text" class="form-control" name="id_card_num" placeholder="No Identitas (KTP/SIM)"
+                            maxlength="16" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="noktp">Tanggal Lahir</label>
+                        <input type="text" class="form-control" name="id_card_num" placeholder="MM/DD/YY" maxlength="16"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="phone" placeholder="Nomor Telepon" maxlength="13"
+                            value required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Kota/Kabupaten</label>
+                        <select class="form-control">
+                            <option>--Pilih Kabupaten/Kota--</option>
+                            <option>Bandung</option>
+                            <option>Bandung Barat</option>
+                            <option>Bekasi</option>
+                            <option>Cianjur</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Kecamatan</label>
+                        <select class="form-control">
+                            <option>--Pilih Kecamatan--</option>
+                            <option>Bandung</option>
+                            <option>Bandung Barat</option>
+                            <option>Bekasi</option>
+                            <option>Cianjur</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Kelurahan/Desa</label>
+                        <select class="form-control">
+                            <option>--Pilih Kelurahan/Desa--</option>
+                            <option>Bandung</option>
+                            <option>Bandung Barat</option>
+                            <option>Bekasi</option>
+                            <option>Cianjur</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="alamat" id="" cols="30" rows="7" class="form-control"
+                            placeholder="Alamat"></textarea>
+                    </div>
 
-    <div class="bg-light col-lg-8 align-items-center">
-        <form action="">
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" name="email" placeholder="Email" value required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" name="password" placeholder="Password" value required>
-            </div>
-            <a href="#">Lupa Password</a>
-            <div class="form-group col-md topper d-flex align-items-center justify-content-end">
-                <input type="submit" class="btn btn-primary full-width has-value" value="Masuk">
-            </div>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-            <div class="container align-items-center" style="background-color:#f1f1f1">
-                <span class="daftar align-items-center" style="padding:15px;">Belum Punya Akun? <a href="#">Daftar
-                        Disini</a></span>
             </div>
 
-        </form>
-
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" placeholder="Email" value required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="phone" placeholder="Nomor Telepon" maxlength="13"
+                        value required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" name="password" placeholder="Password" maxlength="8"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Konfirmasi Password</label>
+                    <input type="password" class="form-control" name="kf_pw" placeholder="Konfirmasi Password"
+                        maxlength="50" required>
+                </div>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Dengan mencentang ini berarti saya setuju
+                    dengan segala <a href="#">Syarat & Ketentuan</a> yang berlaku
+                </label>
+                <div class="row">
+                    <div class="col-10"></div>
+                    <div class="form-group">
+                        <input type="submit" value="Daftar" class="btn btn-primary">
+                    </div>
+                </div>
+            </div>
+            </form>
+        </div>
     </div>
-    </div>
+
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
         <div class="container">
